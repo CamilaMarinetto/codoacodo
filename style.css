@@ -49,9 +49,8 @@ nav a:active {
 }
 @media screen and (max-width: 720px) {
     .navbar {
-        flex-direction: column; /*Cambio de horizontal a vertical en ambas clases*/
+        flex-direction: column; /* Cambio de horizontal a vertical en ambas clases */
     }
-    
 }
 
 .principal{
