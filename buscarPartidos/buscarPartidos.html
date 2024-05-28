@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Partidos</title>
+    <link rel="stylesheet" href="buscarPartidos.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <section id="search-section" action="https://formspree.io/f/xyyrdjon" method="post">
+            <h2>Buscar Partidos</h2>
+            <form id="searchForm">
+                <div class="form-group">
+                    <label for="location">Ubicación:</label>
+                    <input type="text" id="location" name="location" placeholder="Ciudad, Provincia, País">
+                </div>
+                <div class="form-group">
+                    <label for="level">Nivel de Habilidad:</label>
+                    <select id="level" name="level">
+                        <option value="beginner">Principiante</option>
+                        <option value="intermediate">Intermedio</option>
+                        <option value="advanced">Avanzado</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Fecha:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        <!--
+        <section id="results-section">
+            <h2>Resultados de la Búsqueda</h2>
+            <div id="results">
+                Aquí se mostrarán los resultados de la búsqueda 
+            </div>
+        </section>
+        --> 
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    
+</body>
+</html>
